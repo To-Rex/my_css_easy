@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    background:#00B7EB;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px
+}
+#hero{
+    background:#FF0000;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px
+}
+#content{
+    background:#00FF00;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px
+}
+#sidebar{
+    background:#800080;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px
+}
+#footer{
+    background:#444444;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+}
+@media (min-width : 700px){
+    #content, #sidebar {
+        width: 50%;
+    }
+    #sidebar{
+        margin-left: 50%;
+        margin-top: -100px;
+    }
+}
+</style>
+ <body>
+ <div id="header">HADER  </div>
+ <div id="hero">Hero   </div>
+ <div id="content">Content  </div>
+ <div id="sidebar">Sidebar   </div>
+ <div id="footer">Footer   </div>
+ </body>
+</html>
